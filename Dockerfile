@@ -1,4 +1,4 @@
-FROM openjdk:17-jdk-slim
+FROM amazoncorretto:17-alpine
 
 EXPOSE 8087
 ENV APP_HOME /usr/src/app
